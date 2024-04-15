@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<root>
+  <Tab name="Build">
+	<Column>
+	  <Button name="Clear Reset Run" scriptName="ClearResetRun.cmd" scriptPath="/win/RunScripts/"/>
+	</Column>
+  </Tab>
+  <Tab name="Cmake">
+	<Column>
+	  <Button name="vs22x64 clang nounity" scriptName="update_win_vs22_clang_nounity" scriptPath="/cmake/" platform="win"/>
+	</Column>
+	<Column>	  
+	  <Button name="vs19x64 msvc unity" scriptName="update_win_vs19x64_cmake_unity" scriptPath="/cmake/" platform="win"/>
+	</Column>
+  </Tab>
+</root>
