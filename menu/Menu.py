@@ -259,7 +259,7 @@ class MainWindow(Frame):
     def __init__(self, parent):
         Frame.__init__(self, parent, background="white")
         self.parent = parent
-        self.parent.title("Pocket Fishdom dev Menu")
+        self.parent.title("Menu for developer")
         self.centerWindow()
         self.initUI()
 
